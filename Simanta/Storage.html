@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Storage</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #eef2f7;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #1f4037, #99f2c8);
+            color: #fff;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            background: #14532d;
+            padding: 12px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        nav a:hover {
+            color: #a7f3d0;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .card {
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+        h2 {
+            color: #14532d;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .item {
+            background: #f0fdf4;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #22c55e;
+        }
+        footer {
+            background: #1f4037;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .back-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #14532d;
+            color: #fff;
+            padding: 10px 16px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 14px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+        }
+        .back-btn:hover {
+            background: #a7f3d0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Computer Storage</h1>
+    <p>Saving Data for Short-Term and Long-Term Use</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#types">Types</a>
+    <a href="#devices">Storage Devices</a>
+    <a href="#importance">Importance</a>
+</nav>
+
+<div class="container">
+
+    <section id="about" class="section">
+        <div class="card">
+            <h2>About Computer Storage</h2>
+            <p>
+                Computer storage refers to the hardware components and media used to store digital data.
+                It allows computers to retain information permanently or temporarily for future use.
+                Storage is essential for saving operating systems, software applications, and user files.
+            </p>
+        </div>
+    </section>
+
+    <section id="types" class="section">
+        <div class="card">
+            <h2>Types of Storage</h2>
+            <div class="grid">
+                <div class="item">
+                    <h3>Primary Storage</h3>
+                    <p>Temporary storage such as RAM that is directly accessed by the CPU.</p>
+                </div>
+                <div class="item">
+                    <h3>Secondary Storage</h3>
+                    <p>Permanent storage used to save data for long periods, even when power is off.</p>
+                </div>
+                <div class="item">
+                    <h3>Cloud Storage</h3>
+                    <p>Remote storage accessed via the internet for backup and sharing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="devices" class="section">
+        <div class="card">
+            <h2>Common Storage Devices</h2>
+            <div class="grid">
+                <div class="item">
+                    <h3>Hard Disk Drive (HDD)</h3>
+                    <p>Traditional storage device with magnetic disks for large capacity.</p>
+                </div>
+                <div class="item">
+                    <h3>Solid State Drive (SSD)</h3>
+                    <p>Faster storage device using flash memory with no moving parts.</p>
+                </div>
+                <div class="item">
+                    <h3>USB Flash Drive</h3>
+                    <p>Portable storage device for transferring data easily.</p>
+                </div>
+                <div class="item">
+                    <h3>Memory Card</h3>
+                    <p>Small storage device used in cameras, phones, and other devices.</p>
+                </div>
+                <div class="item">
+                    <h3>Optical Disc</h3>
+                    <p>Storage media such as CDs and DVDs for data distribution.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="importance" class="section">
+        <div class="card">
+            <h2>Importance of Storage</h2>
+            <ul>
+                <li>Preserves data and files permanently</li>
+                <li>Supports operating systems and applications</li>
+                <li>Enables data backup and recovery</li>
+                <li>Allows easy data transfer and sharing</li>
+            </ul>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 Computer Storage Webpage | Educational Purpose</p>
+</footer>
+
+<a href="Choose.html" class="back-btn">← Back</a>
+
+</body>
+</html>

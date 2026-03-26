@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Computer Homepage</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: #e2e8f0;
+}
+
+/* Header */
+header {
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    color: #38bdf8;
+    letter-spacing: 1px;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 25px;
+    color: #cbd5e1;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* Hero Section */
+.hero {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.hero-box {
+    max-width: 900px;
+    background: rgba(255,255,255,0.05);
+    padding: 60px;
+    border-radius: 16px;
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.08);
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+.hero-box h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #38bdf8;
+}
+
+.hero-box p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #cbd5e1;
+    margin-bottom: 15px;
+}
+
+/* Footer buttons */
+footer {
+    position: relative;
+    padding: 20px;
+}
+
+/* Buttons */
+.btn {
+    position: absolute;
+    bottom: 20px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+/* Back left */
+.back-btn {
+    left: 20px;
+    background: #e2e8f0;
+    color: #0f172a;
+}
+
+.back-btn:hover {
+    background: #cbd5e1;
+}
+
+/* Next right */
+.next-btn {
+    right: 20px;
+    background: #38bdf8;
+    color: #0f172a;
+}
+
+.next-btn:hover {
+    background: #0ea5e9;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .hero-box {
+        padding: 30px;
+    }
+
+    .hero-box h1 {
+        font-size: 28px;
+    }
+
+    .hero-box p {
+        font-size: 15px;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h2>Computer World</h2>
+    <nav>
+        <a href="#">Home</a>
+        <a href="Choose.html">Components</a>
+        <a href="#">About</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-box">
+        <h1>Welcome to the World of Computers</h1>
+
+        <p>
+            Computers are powerful electronic devices that process data, perform calculations, 
+            and help solve complex problems efficiently. They are an essential part of modern life.
+        </p>
+
+        <p>
+            From education and business to communication and entertainment, computers are used 
+            everywhere. They enable fast information processing, data storage, and global connectivity.
+        </p>
+
+        <p>
+            As technology continues to grow, computers are becoming more advanced, intelligent, 
+            and important in shaping the future of innovation and digital transformation.
+        </p>
+    </div>
+</section>
+
+<footer>
+    <a href="Website.html" class="btn back-btn">← Back</a>
+    <a href="Choose.html" class="btn next-btn">Next →</a>
+</footer>
+
+</body>
+</html>

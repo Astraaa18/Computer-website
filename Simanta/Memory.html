@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Memory</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f7fa;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #0a2540, #1e3c72);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            background: #0a2540;
+            padding: 12px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        nav a:hover {
+            color: #4fc3f7;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+        h2 {
+            color: #1e3c72;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        footer {
+            background: #0a2540;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .back-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #0a2540;
+            color: #fff;
+            padding: 10px 16px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 14px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+        }
+        .back-btn:hover {
+            background: #4fc3f7;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Computer Memory</h1>
+    <p>Essential Storage for Data and Instructions</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#types">Types</a>
+    <a href="#hierarchy">Memory Hierarchy</a>
+    <a href="#importance">Importance</a>
+</nav>
+
+<div class="container">
+
+    <section id="about" class="section">
+        <div class="card">
+            <h2>About Computer Memory</h2>
+            <p>
+                Computer memory is the storage space in a computer where data and instructions are stored for processing.
+                It plays a vital role in determining system performance and efficiency.
+                Memory allows quick access to data, enabling smooth execution of programs.
+            </p>
+        </div>
+    </section>
+
+    <section id="types" class="section">
+        <div class="card">
+            <h2>Types of Memory</h2>
+            <div class="grid">
+                <div>
+                    <h3>RAM (Random Access Memory)</h3>
+                    <p>Volatile memory used to store data temporarily while the computer is running.</p>
+                </div>
+                <div>
+                    <h3>ROM (Read Only Memory)</h3>
+                    <p>Non-volatile memory that stores permanent instructions needed to start a computer.</p>
+                </div>
+                <div>
+                    <h3>Cache Memory</h3>
+                    <p>High-speed memory located close to the CPU to speed up data access.</p>
+                </div>
+                <div>
+                    <h3>Secondary Memory</h3>
+                    <p>Non-volatile storage such as hard drives and SSDs used for long-term data storage.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hierarchy" class="section">
+        <div class="card">
+            <h2>Memory Hierarchy</h2>
+            <p>
+                Memory in a computer is organized in a hierarchy based on speed, cost, and capacity:
+            </p>
+            <ul>
+                <li>Registers (Fastest, smallest)</li>
+                <li>Cache Memory</li>
+                <li>Main Memory (RAM)</li>
+                <li>Secondary Storage (Largest, slowest)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="importance" class="section">
+        <div class="card">
+            <h2>Importance of Memory</h2>
+            <ul>
+                <li>Stores data and instructions for processing</li>
+                <li>Improves system speed and performance</li>
+                <li>Supports multitasking and complex applications</li>
+                <li>Enables smooth user experience</li>
+            </ul>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 Computer Memory Webpage | Educational Use</p>
+</footer>
+
+<a href="Choose.html" class="back-btn">← Back</a>
+
+</body>
+</html>
